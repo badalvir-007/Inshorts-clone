@@ -5,7 +5,8 @@ import mongoose from 'mongoose';
 const Connection = async() => {
 
     
-    const URL = ""; 
+    const URL = `mongodb+srv://virmani_1887:Vobomann@inshorts-clone.ykggtms.mongodb.net/?retryWrites=true&w=majority`;
+
     //cirrently i have not make a connection on mongodb and thta's why there is  no url  is here and establishh the cluster first i complete all  the code after that i add the url  coneeection for the mongodb
 
     try {

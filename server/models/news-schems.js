@@ -5,7 +5,7 @@ import mongoose from "mongoose";
 const newsSchema = new mongoose.Schema({
     title: { type: String, required: true },
     author :{
-        name:{type:String},
+        type:String,
         required: true
     },
     description :{
